@@ -1,6 +1,8 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 nav {
@@ -25,10 +27,30 @@ nav li {
   color: #D8D8D8;
 }
 
-input {
-  width: 50px;
+h1.term_resp {
+  text-align: center;
+}
+
+h3.term_resp {
+  text-align: center;
+  font-size: medium;
+  font-family: sans-serif;
+
+}
+
+h4.form_cadastro {
+  font-size: smaller;
+}
+
+input.formulario {
+  width: 100px;
   height: 20px;
   padding: 12px 100px;
   margin: 8px 0px;
   box-sizing: border-box;
 }
+
+form.formulario {
+
+}
+
